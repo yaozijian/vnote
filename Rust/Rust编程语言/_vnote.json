@@ -1,0 +1,182 @@
+{
+    "created_time": "2018-07-08T12:48:00Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-07-10T11:02:02Z",
+            "modified_time": "2018-07-12T12:52:14Z",
+            "name": "第17章 面向对象编程.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-07-14T09:46:24Z",
+            "modified_time": "2018-07-14T09:46:24Z",
+            "name": "第18章 模式匹配.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-07-16T12:28:57Z",
+            "modified_time": "2018-08-25T11:47:39Z",
+            "name": "第19章 高级特征.md",
+            "tags": [
+                "unsafe",
+                "生命周期",
+                "完全限定语法",
+                "关联类型",
+                "父特性",
+                "发散函数",
+                "动态大小类型"
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-08-04T08:48:49Z",
+            "modified_time": "2018-11-08T12:30:41Z",
+            "name": "第10章 泛型、特性与生命周期.md",
+            "tags": [
+                "生命周期",
+                "生命周期注解省略",
+                "特性",
+                "总括实现",
+                "孤儿规则"
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-08-26T00:54:48Z",
+            "modified_time": "2018-09-02T13:02:38Z",
+            "name": "第20章 构建多线程Web服务器.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-09-07T13:48:01Z",
+            "modified_time": "2018-09-07T13:51:51Z",
+            "name": "第02章 猜猜看.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-09-08T00:27:40Z",
+            "modified_time": "2018-09-10T12:51:58Z",
+            "name": "第03章 通用编程概念.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-09-13T11:28:06Z",
+            "modified_time": "2018-09-16T08:50:55Z",
+            "name": "第04章 认识所有权.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-09-27T12:14:36Z",
+            "modified_time": "2018-09-27T12:54:19Z",
+            "name": "第05章 结构体.md",
+            "tags": [
+                "自动引用与解引用",
+                "关联方法"
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-09-27T12:56:45Z",
+            "modified_time": "2018-10-20T09:06:05Z",
+            "name": "第06章 枚举与模式匹配.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "1540039122_14875",
+            "attachments": [
+                {
+                    "name": "demo.zip"
+                }
+            ],
+            "created_time": "2018-10-20T09:44:02Z",
+            "modified_time": "2018-11-10T00:17:13Z",
+            "name": "第07章 模块.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "1540474768_30891",
+            "attachments": [
+                {
+                    "name": "excercise1.rs"
+                }
+            ],
+            "created_time": "2018-10-21T11:25:52Z",
+            "modified_time": "2018-10-25T13:34:53Z",
+            "name": "第08章 通用集合类型.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-11-05T10:43:23Z",
+            "modified_time": "2018-11-05T12:21:55Z",
+            "name": "第09章 错误处理.md",
+            "tags": [
+                "Result类型"
+            ]
+        },
+        {
+            "attachment_folder": "20181112213508835_37",
+            "attachments": [
+                {
+                    "name": "chap11.zip"
+                }
+            ],
+            "created_time": "2018-11-09T11:55:48Z",
+            "modified_time": "2018-11-12T13:35:30Z",
+            "name": "第11章 测试.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-11-13T11:10:18Z",
+            "modified_time": "2018-11-13T11:55:26Z",
+            "name": "第12章 一个IO项目：构建命令行程序.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}
