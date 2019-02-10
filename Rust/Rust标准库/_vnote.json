@@ -1,0 +1,21 @@
+{
+    "created_time": "2019-02-09T23:57:44Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2019-02-09T23:58:02Z",
+            "modified_time": "2019-02-09T23:58:02Z",
+            "name": "标准库概述.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+        {
+            "name": "基础类型"
+        }
+    ],
+    "version": "1"
+}

@@ -6,26 +6,26 @@
 ## 1 优雅的错误处理
 
 * 各种错误
-  * 程序逻辑错误
-  * 操作错误：影响程序的外部错误条件
-  * C 中臭名昭著的`SIGSEGV`信号
-  * Java 中的`java.lang.NullPointerException`
+    * 程序逻辑错误
+    * 操作错误：影响程序的外部错误条件
+    * C 中臭名昭著的`SIGSEGV`信号
+    * Java 中的`java.lang.NullPointerException`
+
 * 问题：对于可能返回一个值，也可能会失败的函数，调用方如何区分这两种情况？
-  * C语言：程序员自己处理
-     * 有的使用哨兵值（如Linux系统将返回值一分为二，用负值表示错误）
-     * 有的返回表示成功和失败的值，然后额外使用一个错误码
-     * 有的直接忽略错误（eat errors entirely）
+    * C语言：程序员自己处理
+        * 有的使用哨兵值（如Linux系统将返回值一分为二，用负值表示错误）
+        * 有的返回表示成功和失败的值，然后额外使用一个错误码
+        * 有的直接忽略错误（eat errors entirely）
    * C++和Java：试图用异常来解决这个问题
-      * 异常是有害的：[http://www.lighterra.com/papers/exceptionsharmful/](http://www.lighterra.com/papers/exceptionsharmful/)
-      * 异常隐藏了错误：错误出现时，高层软件不知道是什么导致了错误。Java试图用Checked异常解决这个问题，但[在实践中有严重的缺点](https://blog.philipphauer.de/checked-exceptions-are-evil/)。
-      * 异常是开发速度与长期操作性之间的交易：我们太关注开发速度，盲目地忽视了长期后果。开发者可以宣称错误是别人的问题，或者不会出错。
+       * 异常是有害的：[http://www.lighterra.com/papers/exceptionsharmful/](http://www.lighterra.com/papers/exceptionsharmful/)
+       * 异常隐藏了错误：错误出现时，高层软件不知道是什么导致了错误。Java试图用Checked异常解决这个问题，但[在实践中有严重的缺点](https://blog.philipphauer.de/checked-exceptions-are-evil/)。
+       * 异常是开发速度与长期操作性之间的交易：我们太关注开发速度，盲目地忽视了长期后果。开发者可以宣称错误是别人的问题，或者不会出错。
    * node.js：用参数传递错误，但是可能会被忽略或者滥用（可以不输入这个参数）。
    * Go：返回两个值，一个表示结果，一个表示错误，这相对于C来说是一种改进，但是[也不太好，容易出错](https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/#noisy-error-management)。
-* Rust
-   * 结合多种技术来处理错误
-      * 代数数据类型：一个数据可以是一系列类型中的一种，程序员必须显式处理各种可能类型的值
-      * 参数化类型
-   * 函数返回值可以是两种类型之一：一种类型表示成功；另一种类型表示失败
+   * Rust: 结合多种技术来处理错误
+       * 代数数据类型：一个数据可以是一系列类型中的一种，程序员必须显式处理各种可能类型的值
+       * 参数化类型
+       * 函数返回值可以是两种类型之一：一种类型表示成功；另一种类型表示失败
    * 调用方使用模式匹配来处理返回值
      * 对表示成功的类型，可以取得正确的返回值
      * 对表示错误的类型，可以取得底层错误，然后可以处理错误、传播错误、或者改进错误（添加额外的上下文）并传播错误

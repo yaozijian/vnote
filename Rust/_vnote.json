@@ -19,10 +19,13 @@
             "name": "个人总结"
         },
         {
-            "name": "Rust速成"
+            "name": "Rust异步编程"
         },
         {
-            "name": "Rust异步编程"
+            "name": "Rust标准库"
+        },
+        {
+            "name": "Rust编程语言的黑魔法"
         }
     ],
     "tags": [
