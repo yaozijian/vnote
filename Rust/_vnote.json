@@ -23,6 +23,15 @@
         },
         {
             "name": "Rust标准库"
+        },
+        {
+            "name": "Rust参考"
+        },
+        {
+            "name": "LeetCode"
+        },
+        {
+            "name": "Riker"
         }
     ],
     "tags": [
